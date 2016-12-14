@@ -1,6 +1,6 @@
 /*This programs determines the maximum substring length such that 
 the sun of the 1st and 2nd half of the substring is same.
-This is only for even substring length.*/
+This is only for even substring length...*/
 class half_sum
 {
 	public int cal_len(int arr[],int n)
