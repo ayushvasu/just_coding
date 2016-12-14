@@ -1,3 +1,6 @@
+/*This program is to reach the end of the array from beginning with minimum number of jumps.
+The jumps can be made according to the value of the array.If value is 3 then jump of 1,2 or 3 steps can be made not more
+than that.*/
 import java.util.Arrays;
 
 class min_jump{
