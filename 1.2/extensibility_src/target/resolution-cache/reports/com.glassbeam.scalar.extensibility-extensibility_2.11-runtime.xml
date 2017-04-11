@@ -1,0 +1,1382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.glassbeam.scalar.extensibility"
+		module="extensibility_2.11"
+		revision="5.1"
+		conf="runtime"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20170112124150"/>
+	<dependencies>
+		<module organisation="com.glassbeam" name="scalar-extensibility_2.11">
+			<revision name="5.1.0.10" status="release" pubdate="20170112123817" resolver="local" artresolver="local" downloaded="false" searched="true" default="false" conf="compile, default(compile)" position="1">
+				<metadata-artifact status="no" details="" size="2746" time="0" location="/home/himanshu/.ivy2/cache/com.glassbeam/scalar-extensibility_2.11/ivy-5.1.0.10.xml" searched="true" original-local-location="/home/himanshu/.ivy2/local/com.glassbeam/scalar-extensibility_2.11/5.1.0.10/ivys/ivy.xml" origin-is-local="true" origin-location="/home/himanshu/.ivy2/local/com.glassbeam/scalar-extensibility_2.11/5.1.0.10/ivys/ivy.xml"/>
+				<caller organisation="com.glassbeam.scalar.extensibility" name="extensibility_2.11" conf="compile, runtime" rev="5.1.0.10" rev-constraint-default="5.1.0.10" rev-constraint-dynamic="5.1.0.10" callerrev="5.1"/>
+				<artifacts>
+					<artifact name="scalar-extensibility_2.11" type="jar" ext="jar" status="no" details="" size="4497" time="0" location="/home/himanshu/.ivy2/local/com.glassbeam/scalar-extensibility_2.11/5.1.0.10/jars/scalar-extensibility_2.11.jar">
+						<origin-location is-local="true" location="/home/himanshu/.ivy2/local/com.glassbeam/scalar-extensibility_2.11/5.1.0.10/jars/scalar-extensibility_2.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.glassbeam" name="scalar-model_2.11">
+			<revision name="5.1.0.10" status="release" pubdate="20170112123817" resolver="local" artresolver="local" downloaded="false" searched="true" default="false" conf="compile, default(compile)" position="2">
+				<metadata-artifact status="no" details="" size="4661" time="0" location="/home/himanshu/.ivy2/cache/com.glassbeam/scalar-model_2.11/ivy-5.1.0.10.xml" searched="true" original-local-location="/home/himanshu/.ivy2/local/com.glassbeam/scalar-model_2.11/5.1.0.10/ivys/ivy.xml" origin-is-local="true" origin-location="/home/himanshu/.ivy2/local/com.glassbeam/scalar-model_2.11/5.1.0.10/ivys/ivy.xml"/>
+				<caller organisation="com.glassbeam" name="scalar-extensibility_2.11" conf="compile" rev="5.1.0.10" rev-constraint-default="5.1.0.10" rev-constraint-dynamic="5.1.0.10" callerrev="5.1.0.10"/>
+				<artifacts>
+					<artifact name="scalar-model_2.11" type="jar" ext="jar" status="no" details="" size="1411176" time="0" location="/home/himanshu/.ivy2/local/com.glassbeam/scalar-model_2.11/5.1.0.10/jars/scalar-model_2.11.jar">
+						<origin-location is-local="true" location="/home/himanshu/.ivy2/local/com.glassbeam/scalar-model_2.11/5.1.0.10/jars/scalar-model_2.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="nl.grons" name="metrics-scala_2.11">
+			<revision name="3.5.4" status="release" pubdate="20160411004452" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/erikvanoosten/metrics-scala" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="102">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3757" time="0" location="/home/himanshu/.ivy2/cache/nl.grons/metrics-scala_2.11/ivy-3.5.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/nl/grons/metrics-scala_2.11/3.5.4/metrics-scala_2.11-3.5.4.pom"/>
+				<caller organisation="com.glassbeam" name="scalar-model_2.11" conf="compile" rev="3.5.4" rev-constraint-default="3.5.4" rev-constraint-dynamic="3.5.4" callerrev="5.1.0.10"/>
+				<artifacts>
+					<artifact name="metrics-scala_2.11" type="jar" ext="jar" status="no" details="" size="66471" time="0" location="/home/himanshu/.ivy2/cache/nl.grons/metrics-scala_2.11/jars/metrics-scala_2.11-3.5.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/nl/grons/metrics-scala_2.11/3.5.4/metrics-scala_2.11-3.5.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.ximpleware" name="vtd-xml">
+			<revision name="2.13" status="release" pubdate="20160607015651" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://vtd-xml.sourceforge.net/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="100">
+				<license name="GNU GENERAL PUBLIC LICENSE Version 2, June 1991" url="http://www.gnu.org/licenses/old-licenses/gpl-2.0"/>
+				<metadata-artifact status="no" details="" size="2626" time="0" location="/home/himanshu/.ivy2/cache/com.ximpleware/vtd-xml/ivy-2.13.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/ximpleware/vtd-xml/2.13/vtd-xml-2.13.pom"/>
+				<caller organisation="com.glassbeam" name="scalar-model_2.11" conf="compile" rev="2.13" rev-constraint-default="2.13" rev-constraint-dynamic="2.13" callerrev="5.1.0.10"/>
+				<caller organisation="com.glassbeam.scalar.extensibility" name="extensibility_2.11" conf="compile, runtime" rev="2.11" rev-constraint-default="2.11" rev-constraint-dynamic="2.11" callerrev="5.1"/>
+				<artifacts>
+					<artifact name="vtd-xml" type="jar" ext="jar" status="no" details="" size="580240" time="0" location="/home/himanshu/.ivy2/cache/com.ximpleware/vtd-xml/jars/vtd-xml-2.13.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/ximpleware/vtd-xml/2.13/vtd-xml-2.13.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.11" status="release" pubdate="20130319010030" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://vtd-xml.sourceforge.net/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="-1">
+				<license name="GNU GENERAL PUBLIC LICENSE Version 2, June 1991" url="http://www.gnu.org/licenses/old-licenses/gpl-2.0"/>
+				<metadata-artifact status="no" details="" size="2716" time="0" location="/home/himanshu/.ivy2/cache/com.ximpleware/vtd-xml/ivy-2.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/ximpleware/vtd-xml/2.11/vtd-xml-2.11.pom"/>
+				<evicted-by rev="2.13"/>
+				<caller organisation="com.glassbeam.scalar.extensibility" name="extensibility_2.11" conf="compile, runtime" rev="2.11" rev-constraint-default="2.11" rev-constraint-dynamic="2.11" callerrev="5.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.solr" name="solr-core">
+			<revision name="5.2.1" status="release" pubdate="20150615040407" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="36">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="413098" time="0" location="/home/himanshu/.ivy2/cache/org.apache.solr/solr-core/ivy-5.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/solr/solr-core/5.2.1/solr-core-5.2.1.pom"/>
+				<caller organisation="com.glassbeam" name="scalar-model_2.11" conf="compile" rev="5.2.1" rev-constraint-default="5.2.1" rev-constraint-dynamic="5.2.1" callerrev="5.1.0.10"/>
+				<artifacts>
+					<artifact name="solr-core" type="jar" ext="jar" status="no" details="" size="3493618" time="0" location="/home/himanshu/.ivy2/cache/org.apache.solr/solr-core/jars/solr-core-5.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/solr/solr-core/5.2.1/solr-core-5.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.restlet.jee" name="org.restlet.ext.servlet">
+			<revision name="2.3.0" status="release" pubdate="20141217231132" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="99">
+				<license name="Apache 2.0 license" url="http://www.opensource.org/licenses/apache-2.0"/>
+				<license name="LGPL 3.0 license" url="http://www.opensource.org/licenses/lgpl-3.0"/>
+				<license name="LGPL 2.1 license" url="http://www.opensource.org/licenses/lgpl-2.1"/>
+				<license name="CDDL 1.0 license" url="http://www.opensource.org/licenses/cddl1"/>
+				<license name="EPL 1.0 license" url="http://www.opensource.org/licenses/eclipse-1.0"/>
+				<metadata-artifact status="no" details="" size="10505" time="0" location="/home/himanshu/.ivy2/cache/org.restlet.jee/org.restlet.ext.servlet/ivy-2.3.0.xml" searched="false" origin-is-local="false" origin-location="http://maven.restlet.org/org/restlet/jee/org.restlet.ext.servlet/2.3.0/org.restlet.ext.servlet-2.3.0.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="org.restlet.ext.servlet" type="jar" ext="jar" status="no" details="" size="22972" time="0" location="/home/himanshu/.ivy2/cache/org.restlet.jee/org.restlet.ext.servlet/jars/org.restlet.ext.servlet-2.3.0.jar">
+						<origin-location is-local="false" location="http://maven.restlet.org/org/restlet/jee/org.restlet.ext.servlet/2.3.0/org.restlet.ext.servlet-2.3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.restlet.jee" name="org.restlet">
+			<revision name="2.3.0" status="release" pubdate="20141217231132" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="98">
+				<license name="Apache 2.0 license" url="http://www.opensource.org/licenses/apache-2.0"/>
+				<license name="LGPL 3.0 license" url="http://www.opensource.org/licenses/lgpl-3.0"/>
+				<license name="LGPL 2.1 license" url="http://www.opensource.org/licenses/lgpl-2.1"/>
+				<license name="CDDL 1.0 license" url="http://www.opensource.org/licenses/cddl1"/>
+				<license name="EPL 1.0 license" url="http://www.opensource.org/licenses/eclipse-1.0"/>
+				<metadata-artifact status="no" details="" size="10169" time="0" location="/home/himanshu/.ivy2/cache/org.restlet.jee/org.restlet/ivy-2.3.0.xml" searched="false" origin-is-local="false" origin-location="http://maven.restlet.org/org/restlet/jee/org.restlet/2.3.0/org.restlet-2.3.0.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="org.restlet" type="jar" ext="jar" status="no" details="" size="708039" time="0" location="/home/himanshu/.ivy2/cache/org.restlet.jee/org.restlet/jars/org.restlet-2.3.0.jar">
+						<origin-location is-local="false" location="http://maven.restlet.org/org/restlet/jee/org.restlet/2.3.0/org.restlet-2.3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-servlets">
+			<revision name="9.2.10.v20150310" status="release" pubdate="20150310190724" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="90">
+				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="12492" time="0" location="/home/himanshu/.ivy2/cache/org.eclipse.jetty/jetty-servlets/ivy-9.2.10.v20150310.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlets/9.2.10.v20150310/jetty-servlets-9.2.10.v20150310.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="9.2.10.v20150310" rev-constraint-default="9.2.10.v20150310" rev-constraint-dynamic="9.2.10.v20150310" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="jetty-servlets" type="jar" ext="jar" status="no" details="" size="121879" time="0" location="/home/himanshu/.ivy2/cache/org.eclipse.jetty/jetty-servlets/jars/jetty-servlets-9.2.10.v20150310.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlets/9.2.10.v20150310/jetty-servlets-9.2.10.v20150310.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-rewrite">
+			<revision name="9.2.10.v20150310" status="release" pubdate="20150310191758" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="86">
+				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="11867" time="0" location="/home/himanshu/.ivy2/cache/org.eclipse.jetty/jetty-rewrite/ivy-9.2.10.v20150310.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-rewrite/9.2.10.v20150310/jetty-rewrite-9.2.10.v20150310.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="9.2.10.v20150310" rev-constraint-default="9.2.10.v20150310" rev-constraint-dynamic="9.2.10.v20150310" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="jetty-rewrite" type="jar" ext="jar" status="no" details="" size="29912" time="0" location="/home/himanshu/.ivy2/cache/org.eclipse.jetty/jetty-rewrite/jars/jetty-rewrite-9.2.10.v20150310.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-rewrite/9.2.10.v20150310/jetty-rewrite-9.2.10.v20150310.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-deploy">
+			<revision name="9.2.10.v20150310" status="release" pubdate="20150310191713" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="82">
+				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="11843" time="0" location="/home/himanshu/.ivy2/cache/org.eclipse.jetty/jetty-deploy/ivy-9.2.10.v20150310.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-deploy/9.2.10.v20150310/jetty-deploy-9.2.10.v20150310.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="9.2.10.v20150310" rev-constraint-default="9.2.10.v20150310" rev-constraint-dynamic="9.2.10.v20150310" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="jetty-deploy" type="jar" ext="jar" status="no" details="" size="50462" time="0" location="/home/himanshu/.ivy2/cache/org.eclipse.jetty/jetty-deploy/jars/jetty-deploy-9.2.10.v20150310.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-deploy/9.2.10.v20150310/jetty-deploy-9.2.10.v20150310.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-webapp">
+			<revision name="9.2.10.v20150310" status="release" pubdate="20150310185752" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="92">
+				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="11858" time="0" location="/home/himanshu/.ivy2/cache/org.eclipse.jetty/jetty-webapp/ivy-9.2.10.v20150310.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-webapp/9.2.10.v20150310/jetty-webapp-9.2.10.v20150310.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="9.2.10.v20150310" rev-constraint-default="9.2.10.v20150310" rev-constraint-dynamic="9.2.10.v20150310" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="jetty-webapp" type="jar" ext="jar" status="no" details="" size="107834" time="0" location="/home/himanshu/.ivy2/cache/org.eclipse.jetty/jetty-webapp/jars/jetty-webapp-9.2.10.v20150310.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-webapp/9.2.10.v20150310/jetty-webapp-9.2.10.v20150310.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-servlet">
+			<revision name="9.2.10.v20150310" status="release" pubdate="20150310185728" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="89">
+				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="11700" time="0" location="/home/himanshu/.ivy2/cache/org.eclipse.jetty/jetty-servlet/ivy-9.2.10.v20150310.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/9.2.10.v20150310/jetty-servlet-9.2.10.v20150310.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="9.2.10.v20150310" rev-constraint-default="9.2.10.v20150310" rev-constraint-dynamic="9.2.10.v20150310" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="jetty-servlet" type="jar" ext="jar" status="no" details="" size="115567" time="0" location="/home/himanshu/.ivy2/cache/org.eclipse.jetty/jetty-servlet/jars/jetty-servlet-9.2.10.v20150310.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/9.2.10.v20150310/jetty-servlet-9.2.10.v20150310.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-security">
+			<revision name="9.2.10.v20150310" status="release" pubdate="20150310185658" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="87">
+				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="11570" time="0" location="/home/himanshu/.ivy2/cache/org.eclipse.jetty/jetty-security/ivy-9.2.10.v20150310.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/9.2.10.v20150310/jetty-security-9.2.10.v20150310.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="9.2.10.v20150310" rev-constraint-default="9.2.10.v20150310" rev-constraint-dynamic="9.2.10.v20150310" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="jetty-security" type="jar" ext="jar" status="no" details="" size="95925" time="0" location="/home/himanshu/.ivy2/cache/org.eclipse.jetty/jetty-security/jars/jetty-security-9.2.10.v20150310.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/9.2.10.v20150310/jetty-security-9.2.10.v20150310.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-server">
+			<revision name="9.2.10.v20150310" status="release" pubdate="20150310185632" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="88">
+				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="12363" time="0" location="/home/himanshu/.ivy2/cache/org.eclipse.jetty/jetty-server/ivy-9.2.10.v20150310.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/9.2.10.v20150310/jetty-server-9.2.10.v20150310.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="9.2.10.v20150310" rev-constraint-default="9.2.10.v20150310" rev-constraint-dynamic="9.2.10.v20150310" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="jetty-server" type="jar" ext="jar" status="no" details="" size="418917" time="0" location="/home/himanshu/.ivy2/cache/org.eclipse.jetty/jetty-server/jars/jetty-server-9.2.10.v20150310.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/9.2.10.v20150310/jetty-server-9.2.10.v20150310.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-jmx">
+			<revision name="9.2.10.v20150310" status="release" pubdate="20150310185324" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="85">
+				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="11558" time="0" location="/home/himanshu/.ivy2/cache/org.eclipse.jetty/jetty-jmx/ivy-9.2.10.v20150310.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-jmx/9.2.10.v20150310/jetty-jmx-9.2.10.v20150310.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="9.2.10.v20150310" rev-constraint-default="9.2.10.v20150310" rev-constraint-dynamic="9.2.10.v20150310" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="jetty-jmx" type="jar" ext="jar" status="no" details="" size="22145" time="0" location="/home/himanshu/.ivy2/cache/org.eclipse.jetty/jetty-jmx/jars/jetty-jmx-9.2.10.v20150310.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-jmx/9.2.10.v20150310/jetty-jmx-9.2.10.v20150310.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-io">
+			<revision name="9.2.10.v20150310" status="release" pubdate="20150310185257" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="84">
+				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="11674" time="0" location="/home/himanshu/.ivy2/cache/org.eclipse.jetty/jetty-io/ivy-9.2.10.v20150310.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.2.10.v20150310/jetty-io-9.2.10.v20150310.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="9.2.10.v20150310" rev-constraint-default="9.2.10.v20150310" rev-constraint-dynamic="9.2.10.v20150310" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="jetty-io" type="jar" ext="jar" status="no" details="" size="108132" time="0" location="/home/himanshu/.ivy2/cache/org.eclipse.jetty/jetty-io/jars/jetty-io-9.2.10.v20150310.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.2.10.v20150310/jetty-io-9.2.10.v20150310.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-http">
+			<revision name="9.2.10.v20150310" status="release" pubdate="20150310185157" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="83">
+				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="11455" time="0" location="/home/himanshu/.ivy2/cache/org.eclipse.jetty/jetty-http/ivy-9.2.10.v20150310.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.2.10.v20150310/jetty-http-9.2.10.v20150310.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="9.2.10.v20150310" rev-constraint-default="9.2.10.v20150310" rev-constraint-dynamic="9.2.10.v20150310" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="jetty-http" type="jar" ext="jar" status="no" details="" size="105748" time="0" location="/home/himanshu/.ivy2/cache/org.eclipse.jetty/jetty-http/jars/jetty-http-9.2.10.v20150310.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.2.10.v20150310/jetty-http-9.2.10.v20150310.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-xml">
+			<revision name="9.2.10.v20150310" status="release" pubdate="20150310185308" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="93">
+				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="11494" time="0" location="/home/himanshu/.ivy2/cache/org.eclipse.jetty/jetty-xml/ivy-9.2.10.v20150310.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-xml/9.2.10.v20150310/jetty-xml-9.2.10.v20150310.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="9.2.10.v20150310" rev-constraint-default="9.2.10.v20150310" rev-constraint-dynamic="9.2.10.v20150310" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="jetty-xml" type="jar" ext="jar" status="no" details="" size="44318" time="0" location="/home/himanshu/.ivy2/cache/org.eclipse.jetty/jetty-xml/jars/jetty-xml-9.2.10.v20150310.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-xml/9.2.10.v20150310/jetty-xml-9.2.10.v20150310.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-util">
+			<revision name="9.2.10.v20150310" status="release" pubdate="20150310185137" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="91">
+				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="11805" time="0" location="/home/himanshu/.ivy2/cache/org.eclipse.jetty/jetty-util/ivy-9.2.10.v20150310.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.2.10.v20150310/jetty-util-9.2.10.v20150310.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="9.2.10.v20150310" rev-constraint-default="9.2.10.v20150310" rev-constraint-dynamic="9.2.10.v20150310" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="jetty-util" type="jar" ext="jar" status="no" details="" size="356253" time="0" location="/home/himanshu/.ivy2/cache/org.eclipse.jetty/jetty-util/jars/jetty-util-9.2.10.v20150310.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.2.10.v20150310/jetty-util-9.2.10.v20150310.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-continuation">
+			<revision name="9.2.10.v20150310" status="release" pubdate="20150310185853" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="81">
+				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="11371" time="0" location="/home/himanshu/.ivy2/cache/org.eclipse.jetty/jetty-continuation/ivy-9.2.10.v20150310.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/9.2.10.v20150310/jetty-continuation-9.2.10.v20150310.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="9.2.10.v20150310" rev-constraint-default="9.2.10.v20150310" rev-constraint-dynamic="9.2.10.v20150310" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="jetty-continuation" type="jar" ext="jar" status="no" details="" size="15990" time="0" location="/home/himanshu/.ivy2/cache/org.eclipse.jetty/jetty-continuation/jars/jetty-continuation-9.2.10.v20150310.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/9.2.10.v20150310/jetty-continuation-9.2.10.v20150310.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hadoop" name="hadoop-hdfs">
+			<revision name="2.6.0" status="release" pubdate="20141114041150" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="74">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="37628" time="0" location="/home/himanshu/.ivy2/cache/org.apache.hadoop/hadoop-hdfs/ivy-2.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-hdfs/2.6.0/hadoop-hdfs-2.6.0.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="hadoop-hdfs" type="jar" ext="jar" status="no" details="" size="7822670" time="0" location="/home/himanshu/.ivy2/cache/org.apache.hadoop/hadoop-hdfs/jars/hadoop-hdfs-2.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-hdfs/2.6.0/hadoop-hdfs-2.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hadoop" name="hadoop-common">
+			<revision name="2.6.0" status="release" pubdate="20141114040736" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="73">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="40017" time="0" location="/home/himanshu/.ivy2/cache/org.apache.hadoop/hadoop-common/ivy-2.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.6.0/hadoop-common-2.6.0.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="hadoop-common" type="jar" ext="jar" status="no" details="" size="3360985" time="0" location="/home/himanshu/.ivy2/cache/org.apache.hadoop/hadoop-common/jars/hadoop-common-2.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.6.0/hadoop-common-2.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.htrace" name="htrace-core">
+			<revision name="3.0.4" status="release" pubdate="20140419040047" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/cloudera/htrace" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="94">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4559" time="0" location="/home/himanshu/.ivy2/cache/org.htrace/htrace-core/ivy-3.0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/htrace/htrace-core/3.0.4/htrace-core-3.0.4.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="3.0.4" rev-constraint-default="3.0.4" rev-constraint-dynamic="3.0.4" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="htrace-core" type="jar" ext="jar" status="no" details="" size="31212" time="0" location="/home/himanshu/.ivy2/cache/org.htrace/htrace-core/jars/htrace-core-3.0.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/htrace/htrace-core/3.0.4/htrace-core-3.0.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hadoop" name="hadoop-auth">
+			<revision name="2.6.0" status="release" pubdate="20141114040537" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="72">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="32365" time="0" location="/home/himanshu/.ivy2/cache/org.apache.hadoop/hadoop-auth/ivy-2.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.6.0/hadoop-auth-2.6.0.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="hadoop-auth" type="jar" ext="jar" status="no" details="" size="67167" time="0" location="/home/himanshu/.ivy2/cache/org.apache.hadoop/hadoop-auth/jars/hadoop-auth-2.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.6.0/hadoop-auth-2.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hadoop" name="hadoop-annotations">
+			<revision name="2.6.0" status="release" pubdate="20141114040457" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="71">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="28406" time="0" location="/home/himanshu/.ivy2/cache/org.apache.hadoop/hadoop-annotations/ivy-2.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-annotations/2.6.0/hadoop-annotations-2.6.0.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="hadoop-annotations" type="jar" ext="jar" status="no" details="" size="17035" time="0" location="/home/himanshu/.ivy2/cache/org.apache.hadoop/hadoop-annotations/jars/hadoop-annotations-2.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-annotations/2.6.0/hadoop-annotations-2.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.agkn" name="hll">
+			<revision name="1.6.0" status="release" pubdate="20140731043609" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/aggregateknowledge/java-hll" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="69">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4316" time="0" location="/home/himanshu/.ivy2/cache/net.agkn/hll/ivy-1.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/agkn/hll/1.6.0/hll-1.6.0.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="1.6.0" rev-constraint-default="1.6.0" rev-constraint-dynamic="1.6.0" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="hll" type="jar" ext="jar" status="no" details="" size="29782" time="0" location="/home/himanshu/.ivy2/cache/net.agkn/hll/jars/hll-1.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/agkn/hll/1.6.0/hll-1.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="log4j" name="log4j">
+			<revision name="1.2.17" status="release" pubdate="20120526151339" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://logging.apache.org/log4j/1.2/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="68">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3670" time="0" location="/home/himanshu/.ivy2/cache/log4j/log4j/ivy-1.2.17.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="1.2.17" rev-constraint-default="1.2.17" rev-constraint-dynamic="1.2.17" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="log4j" type="bundle" ext="jar" status="no" details="" size="489884" time="0" location="/home/himanshu/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.servlet" name="javax.servlet-api">
+			<revision name="3.1.0" status="release" pubdate="20130426052239" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://servlet-spec.java.net" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="67">
+				<license name="CDDL + GPLv2 with classpath exception" url="https://glassfish.dev.java.net/nonav/public/CDDL+GPL.html"/>
+				<metadata-artifact status="no" details="" size="4276" time="0" location="/home/himanshu/.ivy2/cache/javax.servlet/javax.servlet-api/ivy-3.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="3.1.0" rev-constraint-default="3.1.0" rev-constraint-dynamic="3.1.0" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="javax.servlet-api" type="jar" ext="jar" status="no" details="" size="95806" time="0" location="/home/himanshu/.ivy2/cache/javax.servlet/javax.servlet-api/jars/javax.servlet-api-3.1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="it.unimi.dsi" name="fastutil">
+			<revision name="6.5.11" status="release" pubdate="20131104151602" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://fasutil.di.unimi.it/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="66">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2747" time="0" location="/home/himanshu/.ivy2/cache/it.unimi.dsi/fastutil/ivy-6.5.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/it/unimi/dsi/fastutil/6.5.11/fastutil-6.5.11.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="6.5.11" rev-constraint-default="6.5.11" rev-constraint-dynamic="6.5.11" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="fastutil" type="jar" ext="jar" status="no" details="" size="16927375" time="0" location="/home/himanshu/.ivy2/cache/it.unimi.dsi/fastutil/jars/fastutil-6.5.11.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/it/unimi/dsi/fastutil/6.5.11/fastutil-6.5.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="dom4j" name="dom4j">
+			<revision name="1.6.1" status="release" pubdate="20060210180318" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://dom4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="65">
+				<metadata-artifact status="no" details="" size="3851" time="0" location="/home/himanshu/.ivy2/cache/dom4j/dom4j/ivy-1.6.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/dom4j/dom4j/1.6.1/dom4j-1.6.1.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="1.6.1" rev-constraint-default="1.6.1" rev-constraint-dynamic="1.6.1" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="dom4j" type="jar" ext="jar" status="no" details="" size="313898" time="0" location="/home/himanshu/.ivy2/cache/dom4j/dom4j/jars/dom4j-1.6.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-lang" name="commons-lang">
+			<revision name="2.6" status="release" pubdate="20110117035147" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/lang/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="64">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6637" time="0" location="/home/himanshu/.ivy2/cache/commons-lang/commons-lang/ivy-2.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="2.6" rev-constraint-default="2.6" rev-constraint-dynamic="2.6" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="commons-lang" type="jar" ext="jar" status="no" details="" size="284220" time="0" location="/home/himanshu/.ivy2/cache/commons-lang/commons-lang/jars/commons-lang-2.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-fileupload" name="commons-fileupload">
+			<revision name="1.2.1" status="release" pubdate="20080211123752" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/fileupload/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="62">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4005" time="0" location="/home/himanshu/.ivy2/cache/commons-fileupload/commons-fileupload/ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-fileupload/commons-fileupload/1.2.1/commons-fileupload-1.2.1.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="commons-fileupload" type="jar" ext="jar" status="no" details="" size="57779" time="0" location="/home/himanshu/.ivy2/cache/commons-fileupload/commons-fileupload/jars/commons-fileupload-1.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-fileupload/commons-fileupload/1.2.1/commons-fileupload-1.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-configuration" name="commons-configuration">
+			<revision name="1.6" status="release" pubdate="20090205011444" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/${pom.artifactId.substring(8)}/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="61">
+				<license name="The Apache Software License, Version 2.0" url="/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="5804" time="0" location="/home/himanshu/.ivy2/cache/commons-configuration/commons-configuration/ivy-1.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="1.6" rev-constraint-default="1.6" rev-constraint-dynamic="1.6" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="commons-configuration" type="jar" ext="jar" status="no" details="" size="298829" time="0" location="/home/himanshu/.ivy2/cache/commons-configuration/commons-configuration/jars/commons-configuration-1.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-cli" name="commons-cli">
+			<revision name="1.2" status="release" pubdate="20090320013832" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/cli/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="58">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4697" time="0" location="/home/himanshu/.ivy2/cache/commons-cli/commons-cli/ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="commons-cli" type="jar" ext="jar" status="no" details="" size="41123" time="0" location="/home/himanshu/.ivy2/cache/commons-cli/commons-cli/jars/commons-cli-1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.tdunning" name="t-digest">
+			<revision name="3.1" status="release" pubdate="20150406063516" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/tdunning/t-digest" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="57">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3737" time="0" location="/home/himanshu/.ivy2/cache/com.tdunning/t-digest/ivy-3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/tdunning/t-digest/3.1/t-digest-3.1.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="3.1" rev-constraint-default="3.1" rev-constraint-dynamic="3.1" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="t-digest" type="jar" ext="jar" status="no" details="" size="61298" time="0" location="/home/himanshu/.ivy2/cache/com.tdunning/t-digest/jars/t-digest-3.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/tdunning/t-digest/3.1/t-digest-3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.googlecode.concurrentlinkedhashmap" name="concurrentlinkedhashmap-lru">
+			<revision name="1.2" status="release" pubdate="20110521063632" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/concurrentlinkedhashmap" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="55">
+				<license name="Apache" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4246" time="0" location="/home/himanshu/.ivy2/cache/com.googlecode.concurrentlinkedhashmap/concurrentlinkedhashmap-lru/ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.2/concurrentlinkedhashmap-lru-1.2.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="concurrentlinkedhashmap-lru" type="jar" ext="jar" status="no" details="" size="53011" time="0" location="/home/himanshu/.ivy2/cache/com.googlecode.concurrentlinkedhashmap/concurrentlinkedhashmap-lru/jars/concurrentlinkedhashmap-lru-1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.2/concurrentlinkedhashmap-lru-1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-collections" name="commons-collections">
+			<revision name="3.2.1" status="release" pubdate="20080415063924" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/collections/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="60">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4831" time="0" location="/home/himanshu/.ivy2/cache/commons-collections/commons-collections/ivy-3.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="commons-collections" type="jar" ext="jar" status="no" details="" size="575389" time="0" location="/home/himanshu/.ivy2/cache/commons-collections/commons-collections/jars/commons-collections-3.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.carrotsearch" name="hppc">
+			<revision name="0.5.2" status="release" pubdate="20130709132529" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="54">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4883" time="0" location="/home/himanshu/.ivy2/cache/com.carrotsearch/hppc/ivy-0.5.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/carrotsearch/hppc/0.5.2/hppc-0.5.2.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="0.5.2" rev-constraint-default="0.5.2" rev-constraint-dynamic="0.5.2" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="hppc" type="jar" ext="jar" status="no" details="" size="1288954" time="0" location="/home/himanshu/.ivy2/cache/com.carrotsearch/hppc/jars/hppc-0.5.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/carrotsearch/hppc/0.5.2/hppc-0.5.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.solr" name="solr-solrj">
+			<revision name="5.2.1" status="release" pubdate="20150615040918" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="53">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="387529" time="0" location="/home/himanshu/.ivy2/cache/org.apache.solr/solr-solrj/ivy-5.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/solr/solr-solrj/5.2.1/solr-solrj-5.2.1.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="5.2.1" rev-constraint-default="5.2.1" rev-constraint-dynamic="5.2.1" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="solr-solrj" type="jar" ext="jar" status="no" details="" size="585879" time="0" location="/home/himanshu/.ivy2/cache/org.apache.solr/solr-solrj/jars/solr-solrj-5.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/solr/solr-solrj/5.2.1/solr-solrj-5.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.noggit" name="noggit">
+			<revision name="0.6" status="release" pubdate="20140611232047" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/yonik/noggit" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="95">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3161" time="0" location="/home/himanshu/.ivy2/cache/org.noggit/noggit/ivy-0.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/noggit/noggit/0.6/noggit-0.6.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="0.6" rev-constraint-default="0.6" rev-constraint-dynamic="0.6" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="noggit" type="jar" ext="jar" status="no" details="" size="26720" time="0" location="/home/himanshu/.ivy2/cache/org.noggit/noggit/jars/noggit-0.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/noggit/noggit/0.6/noggit-0.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.woodstox" name="woodstox-core-asl">
+			<revision name="4.4.1" status="release" pubdate="20140912071817" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://woodstox.codehaus.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="80">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2917" time="0" location="/home/himanshu/.ivy2/cache/org.codehaus.woodstox/woodstox-core-asl/ivy-4.4.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/woodstox/woodstox-core-asl/4.4.1/woodstox-core-asl-4.4.1.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="4.4.1" rev-constraint-default="4.4.1" rev-constraint-dynamic="4.4.1" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="woodstox-core-asl" type="jar" ext="jar" status="no" details="" size="486013" time="0" location="/home/himanshu/.ivy2/cache/org.codehaus.woodstox/woodstox-core-asl/jars/woodstox-core-asl-4.4.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/woodstox/woodstox-core-asl/4.4.1/woodstox-core-asl-4.4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.woodstox" name="stax2-api">
+			<revision name="3.1.4" status="release" pubdate="20140228115027" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/WoodstoxStax2" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="79">
+				<license name="The BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="3477" time="0" location="/home/himanshu/.ivy2/cache/org.codehaus.woodstox/stax2-api/ivy-3.1.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="3.1.4" rev-constraint-default="3.1.4" rev-constraint-dynamic="3.1.4" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="stax2-api" type="bundle" ext="jar" status="no" details="" size="161867" time="0" location="/home/himanshu/.ivy2/cache/org.codehaus.woodstox/stax2-api/bundles/stax2-api-3.1.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.zookeeper" name="zookeeper">
+			<revision name="3.4.6" status="release" pubdate="20140223224855" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="78">
+				<metadata-artifact status="no" details="" size="4352" time="0" location="/home/himanshu/.ivy2/cache/org.apache.zookeeper/zookeeper/ivy-3.4.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="3.4.6" rev-constraint-default="3.4.6" rev-constraint-dynamic="3.4.6" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="zookeeper" type="jar" ext="jar" status="no" details="" size="792964" time="0" location="/home/himanshu/.ivy2/cache/org.apache.zookeeper/zookeeper/jars/zookeeper-3.4.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpmime">
+			<revision name="4.4.1" status="release" pubdate="20150324211418" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="77">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="9321" time="0" location="/home/himanshu/.ivy2/cache/org.apache.httpcomponents/httpmime/ivy-4.4.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.4.1/httpmime-4.4.1.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="4.4.1" rev-constraint-default="4.4.1" rev-constraint-dynamic="4.4.1" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="httpmime" type="jar" ext="jar" status="no" details="" size="40631" time="0" location="/home/himanshu/.ivy2/cache/org.apache.httpcomponents/httpmime/jars/httpmime-4.4.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.4.1/httpmime-4.4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpclient">
+			<revision name="4.4.1" status="release" pubdate="20150324211339" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="75">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="9802" time="0" location="/home/himanshu/.ivy2/cache/org.apache.httpcomponents/httpclient/ivy-4.4.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.4.1/httpclient-4.4.1.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="4.4.1" rev-constraint-default="4.4.1" rev-constraint-dynamic="4.4.1" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="httpclient" type="jar" ext="jar" status="no" details="" size="720931" time="0" location="/home/himanshu/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.4.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.4.1/httpclient-4.4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpcore">
+			<revision name="4.4.1" status="release" pubdate="20150314215955" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-core-ga" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="76">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7617" time="0" location="/home/himanshu/.ivy2/cache/org.apache.httpcomponents/httpcore/ivy-4.4.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.1/httpcore-4.4.1.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="4.4.1" rev-constraint-default="4.4.1" rev-constraint-dynamic="4.4.1" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="httpcore" type="jar" ext="jar" status="no" details="" size="322234" time="0" location="/home/himanshu/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.4.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.1/httpcore-4.4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-io" name="commons-io">
+			<revision name="2.4" status="release" pubdate="20120613035206" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="63">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8704" time="0" location="/home/himanshu/.ivy2/cache/commons-io/commons-io/ivy-2.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="commons-io" type="jar" ext="jar" status="no" details="" size="185140" time="0" location="/home/himanshu/.ivy2/cache/commons-io/commons-io/jars/commons-io-2.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-suggest">
+			<revision name="5.2.1" status="release" pubdate="20150615033853" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="52">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="386809" time="0" location="/home/himanshu/.ivy2/cache/org.apache.lucene/lucene-suggest/ivy-5.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-suggest/5.2.1/lucene-suggest-5.2.1.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="5.2.1" rev-constraint-default="5.2.1" rev-constraint-dynamic="5.2.1" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="lucene-suggest" type="jar" ext="jar" status="no" details="" size="222338" time="0" location="/home/himanshu/.ivy2/cache/org.apache.lucene/lucene-suggest/jars/lucene-suggest-5.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-suggest/5.2.1/lucene-suggest-5.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-spatial">
+			<revision name="5.2.1" status="release" pubdate="20150615034300" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="51">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="386682" time="0" location="/home/himanshu/.ivy2/cache/org.apache.lucene/lucene-spatial/ivy-5.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-spatial/5.2.1/lucene-spatial-5.2.1.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="5.2.1" rev-constraint-default="5.2.1" rev-constraint-dynamic="5.2.1" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="lucene-spatial" type="jar" ext="jar" status="no" details="" size="294563" time="0" location="/home/himanshu/.ivy2/cache/org.apache.lucene/lucene-spatial/jars/lucene-spatial-5.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-spatial/5.2.1/lucene-spatial-5.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.spatial4j" name="spatial4j">
+			<revision name="0.4.1" status="release" pubdate="20140219114135" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spatial4j/spatial4j" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="56">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4157" time="0" location="/home/himanshu/.ivy2/cache/com.spatial4j/spatial4j/ivy-0.4.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/spatial4j/spatial4j/0.4.1/spatial4j-0.4.1.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="0.4.1" rev-constraint-default="0.4.1" rev-constraint-dynamic="0.4.1" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="spatial4j" type="bundle" ext="jar" status="no" details="" size="102177" time="0" location="/home/himanshu/.ivy2/cache/com.spatial4j/spatial4j/bundles/spatial4j-0.4.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/spatial4j/spatial4j/0.4.1/spatial4j-0.4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-misc">
+			<revision name="5.2.1" status="release" pubdate="20150615034044" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="48">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="385982" time="0" location="/home/himanshu/.ivy2/cache/org.apache.lucene/lucene-misc/ivy-5.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-misc/5.2.1/lucene-misc-5.2.1.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="5.2.1" rev-constraint-default="5.2.1" rev-constraint-dynamic="5.2.1" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="lucene-misc" type="jar" ext="jar" status="no" details="" size="171801" time="0" location="/home/himanshu/.ivy2/cache/org.apache.lucene/lucene-misc/jars/lucene-misc-5.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-misc/5.2.1/lucene-misc-5.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-highlighter">
+			<revision name="5.2.1" status="release" pubdate="20150615035403" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="45">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="387232" time="0" location="/home/himanshu/.ivy2/cache/org.apache.lucene/lucene-highlighter/ivy-5.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-highlighter/5.2.1/lucene-highlighter-5.2.1.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="5.2.1" rev-constraint-default="5.2.1" rev-constraint-dynamic="5.2.1" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="lucene-highlighter" type="jar" ext="jar" status="no" details="" size="142825" time="0" location="/home/himanshu/.ivy2/cache/org.apache.lucene/lucene-highlighter/jars/lucene-highlighter-5.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-highlighter/5.2.1/lucene-highlighter-5.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-memory">
+			<revision name="5.2.1" status="release" pubdate="20150615034438" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="47">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="386499" time="0" location="/home/himanshu/.ivy2/cache/org.apache.lucene/lucene-memory/ivy-5.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-memory/5.2.1/lucene-memory-5.2.1.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="5.2.1" rev-constraint-default="5.2.1" rev-constraint-dynamic="5.2.1" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="lucene-memory" type="jar" ext="jar" status="no" details="" size="33438" time="0" location="/home/himanshu/.ivy2/cache/org.apache.lucene/lucene-memory/jars/lucene-memory-5.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-memory/5.2.1/lucene-memory-5.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-queryparser">
+			<revision name="5.2.1" status="release" pubdate="20150615034214" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="50">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="386655" time="0" location="/home/himanshu/.ivy2/cache/org.apache.lucene/lucene-queryparser/ivy-5.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/5.2.1/lucene-queryparser-5.2.1.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="5.2.1" rev-constraint-default="5.2.1" rev-constraint-dynamic="5.2.1" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="lucene-queryparser" type="jar" ext="jar" status="no" details="" size="400198" time="0" location="/home/himanshu/.ivy2/cache/org.apache.lucene/lucene-queryparser/jars/lucene-queryparser-5.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/5.2.1/lucene-queryparser-5.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-join">
+			<revision name="5.2.1" status="release" pubdate="20150615034811" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="46">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="386356" time="0" location="/home/himanshu/.ivy2/cache/org.apache.lucene/lucene-join/ivy-5.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-join/5.2.1/lucene-join-5.2.1.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="5.2.1" rev-constraint-default="5.2.1" rev-constraint-dynamic="5.2.1" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="lucene-join" type="jar" ext="jar" status="no" details="" size="102234" time="0" location="/home/himanshu/.ivy2/cache/org.apache.lucene/lucene-join/jars/lucene-join-5.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-join/5.2.1/lucene-join-5.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-grouping">
+			<revision name="5.2.1" status="release" pubdate="20150615035321" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="44">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="386259" time="0" location="/home/himanshu/.ivy2/cache/org.apache.lucene/lucene-grouping/ivy-5.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-grouping/5.2.1/lucene-grouping-5.2.1.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="5.2.1" rev-constraint-default="5.2.1" rev-constraint-dynamic="5.2.1" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="lucene-grouping" type="jar" ext="jar" status="no" details="" size="108558" time="0" location="/home/himanshu/.ivy2/cache/org.apache.lucene/lucene-grouping/jars/lucene-grouping-5.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-grouping/5.2.1/lucene-grouping-5.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-expressions">
+			<revision name="5.2.1" status="release" pubdate="20150615035104" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="43">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="386970" time="0" location="/home/himanshu/.ivy2/cache/org.apache.lucene/lucene-expressions/ivy-5.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-expressions/5.2.1/lucene-expressions-5.2.1.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="5.2.1" rev-constraint-default="5.2.1" rev-constraint-dynamic="5.2.1" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="lucene-expressions" type="jar" ext="jar" status="no" details="" size="75847" time="0" location="/home/himanshu/.ivy2/cache/org.apache.lucene/lucene-expressions/jars/lucene-expressions-5.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-expressions/5.2.1/lucene-expressions-5.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm-commons">
+			<revision name="4.1" status="release" pubdate="20121014210823" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="97">
+				<license name="BSD" url="http://asm.objectweb.org/license.html"/>
+				<metadata-artifact status="no" details="" size="4124" time="0" location="/home/himanshu/.ivy2/cache/org.ow2.asm/asm-commons/ivy-4.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/4.1/asm-commons-4.1.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="4.1" rev-constraint-default="4.1" rev-constraint-dynamic="4.1" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="asm-commons" type="jar" ext="jar" status="no" details="" size="38090" time="0" location="/home/himanshu/.ivy2/cache/org.ow2.asm/asm-commons/jars/asm-commons-4.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/4.1/asm-commons-4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm">
+			<revision name="4.1" status="release" pubdate="20121014210745" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="96">
+				<license name="BSD" url="http://asm.objectweb.org/license.html"/>
+				<metadata-artifact status="no" details="" size="3939" time="0" location="/home/himanshu/.ivy2/cache/org.ow2.asm/asm/ivy-4.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm/4.1/asm-4.1.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="4.1" rev-constraint-default="4.1" rev-constraint-dynamic="4.1" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="asm" type="jar" ext="jar" status="no" details="" size="47359" time="0" location="/home/himanshu/.ivy2/cache/org.ow2.asm/asm/jars/asm-4.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ow2/asm/asm/4.1/asm-4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.antlr" name="antlr-runtime">
+			<revision name="3.5" status="release" pubdate="20130105090525" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.antlr.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="70">
+				<license name="BSD licence" url="http://antlr.org/license.html"/>
+				<metadata-artifact status="no" details="" size="5504" time="0" location="/home/himanshu/.ivy2/cache/org.antlr/antlr-runtime/ivy-3.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5/antlr-runtime-3.5.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="3.5" rev-constraint-default="3.5" rev-constraint-dynamic="3.5" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="antlr-runtime" type="jar" ext="jar" status="no" details="" size="167735" time="0" location="/home/himanshu/.ivy2/cache/org.antlr/antlr-runtime/jars/antlr-runtime-3.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5/antlr-runtime-3.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-queries">
+			<revision name="5.2.1" status="release" pubdate="20150615035234" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="49">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="385981" time="0" location="/home/himanshu/.ivy2/cache/org.apache.lucene/lucene-queries/ivy-5.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/5.2.1/lucene-queries-5.2.1.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="5.2.1" rev-constraint-default="5.2.1" rev-constraint-dynamic="5.2.1" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="lucene-queries" type="jar" ext="jar" status="no" details="" size="209869" time="0" location="/home/himanshu/.ivy2/cache/org.apache.lucene/lucene-queries/jars/lucene-queries-5.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/5.2.1/lucene-queries-5.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-backward-codecs">
+			<revision name="5.2.1" status="release" pubdate="20150615034727" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="40">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="386020" time="0" location="/home/himanshu/.ivy2/cache/org.apache.lucene/lucene-backward-codecs/ivy-5.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-backward-codecs/5.2.1/lucene-backward-codecs-5.2.1.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="5.2.1" rev-constraint-default="5.2.1" rev-constraint-dynamic="5.2.1" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="lucene-backward-codecs" type="jar" ext="jar" status="no" details="" size="368896" time="0" location="/home/himanshu/.ivy2/cache/org.apache.lucene/lucene-backward-codecs/jars/lucene-backward-codecs-5.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-backward-codecs/5.2.1/lucene-backward-codecs-5.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-analyzers-phonetic">
+			<revision name="5.2.1" status="release" pubdate="20150615034943" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="39">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="386467" time="0" location="/home/himanshu/.ivy2/cache/org.apache.lucene/lucene-analyzers-phonetic/ivy-5.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers-phonetic/5.2.1/lucene-analyzers-phonetic-5.2.1.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="5.2.1" rev-constraint-default="5.2.1" rev-constraint-dynamic="5.2.1" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="lucene-analyzers-phonetic" type="jar" ext="jar" status="no" details="" size="26147" time="0" location="/home/himanshu/.ivy2/cache/org.apache.lucene/lucene-analyzers-phonetic/jars/lucene-analyzers-phonetic-5.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers-phonetic/5.2.1/lucene-analyzers-phonetic-5.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.10" status="release" pubdate="20141106194535" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-codec/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="59">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10608" time="0" location="/home/himanshu/.ivy2/cache/commons-codec/commons-codec/ivy-1.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="1.10" rev-constraint-default="1.10" rev-constraint-dynamic="1.10" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="commons-codec" type="jar" ext="jar" status="no" details="" size="284184" time="0" location="/home/himanshu/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-analyzers-kuromoji">
+			<revision name="5.2.1" status="release" pubdate="20150615033754" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="38">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="386325" time="0" location="/home/himanshu/.ivy2/cache/org.apache.lucene/lucene-analyzers-kuromoji/ivy-5.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers-kuromoji/5.2.1/lucene-analyzers-kuromoji-5.2.1.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="5.2.1" rev-constraint-default="5.2.1" rev-constraint-dynamic="5.2.1" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="lucene-analyzers-kuromoji" type="jar" ext="jar" status="no" details="" size="4598259" time="0" location="/home/himanshu/.ivy2/cache/org.apache.lucene/lucene-analyzers-kuromoji/jars/lucene-analyzers-kuromoji-5.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers-kuromoji/5.2.1/lucene-analyzers-kuromoji-5.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-analyzers-common">
+			<revision name="5.2.1" status="release" pubdate="20150615034522" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="37">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="386009" time="0" location="/home/himanshu/.ivy2/cache/org.apache.lucene/lucene-analyzers-common/ivy-5.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers-common/5.2.1/lucene-analyzers-common-5.2.1.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="5.2.1" rev-constraint-default="5.2.1" rev-constraint-dynamic="5.2.1" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="lucene-analyzers-common" type="jar" ext="jar" status="no" details="" size="1553733" time="0" location="/home/himanshu/.ivy2/cache/org.apache.lucene/lucene-analyzers-common/jars/lucene-analyzers-common-5.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers-common/5.2.1/lucene-analyzers-common-5.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-codecs">
+			<revision name="5.2.1" status="release" pubdate="20150615034900" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="41">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="385087" time="0" location="/home/himanshu/.ivy2/cache/org.apache.lucene/lucene-codecs/ivy-5.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-codecs/5.2.1/lucene-codecs-5.2.1.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="5.2.1" rev-constraint-default="5.2.1" rev-constraint-dynamic="5.2.1" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="lucene-codecs" type="jar" ext="jar" status="no" details="" size="420884" time="0" location="/home/himanshu/.ivy2/cache/org.apache.lucene/lucene-codecs/jars/lucene-codecs-5.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-codecs/5.2.1/lucene-codecs-5.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-core">
+			<revision name="5.2.1" status="release" pubdate="20150615033935" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="42">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="384911" time="0" location="/home/himanshu/.ivy2/cache/org.apache.lucene/lucene-core/ivy-5.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/5.2.1/lucene-core-5.2.1.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="5.2.1" rev-constraint-default="5.2.1" rev-constraint-dynamic="5.2.1" callerrev="5.2.1"/>
+				<artifacts>
+					<artifact name="lucene-core" type="jar" ext="jar" status="no" details="" size="2346253" time="0" location="/home/himanshu/.ivy2/cache/org.apache.lucene/lucene-core/jars/lucene-core-5.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/5.2.1/lucene-core-5.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.glassbeam" name="scalar-utils_2.11">
+			<revision name="5.1.0.10" status="release" pubdate="20170112123817" resolver="local" artresolver="local" downloaded="false" searched="true" default="false" conf="compile, default(compile)" position="35">
+				<metadata-artifact status="no" details="" size="2605" time="0" location="/home/himanshu/.ivy2/cache/com.glassbeam/scalar-utils_2.11/ivy-5.1.0.10.xml" searched="true" original-local-location="/home/himanshu/.ivy2/local/com.glassbeam/scalar-utils_2.11/5.1.0.10/ivys/ivy.xml" origin-is-local="true" origin-location="/home/himanshu/.ivy2/local/com.glassbeam/scalar-utils_2.11/5.1.0.10/ivys/ivy.xml"/>
+				<caller organisation="com.glassbeam" name="scalar-model_2.11" conf="compile" rev="5.1.0.10" rev-constraint-default="5.1.0.10" rev-constraint-dynamic="5.1.0.10" callerrev="5.1.0.10"/>
+				<artifacts>
+					<artifact name="scalar-utils_2.11" type="jar" ext="jar" status="no" details="" size="18774" time="0" location="/home/himanshu/.ivy2/local/com.glassbeam/scalar-utils_2.11/5.1.0.10/jars/scalar-utils_2.11.jar">
+						<origin-location is-local="true" location="/home/himanshu/.ivy2/local/com.glassbeam/scalar-utils_2.11/5.1.0.10/jars/scalar-utils_2.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.glassbeam" name="scalar-h2_2.11">
+			<revision name="5.1.0.10" status="release" pubdate="20170112123817" resolver="local" artresolver="local" downloaded="false" searched="true" default="false" conf="compile, default(compile)" position="3">
+				<metadata-artifact status="no" details="" size="3692" time="0" location="/home/himanshu/.ivy2/cache/com.glassbeam/scalar-h2_2.11/ivy-5.1.0.10.xml" searched="true" original-local-location="/home/himanshu/.ivy2/local/com.glassbeam/scalar-h2_2.11/5.1.0.10/ivys/ivy.xml" origin-is-local="true" origin-location="/home/himanshu/.ivy2/local/com.glassbeam/scalar-h2_2.11/5.1.0.10/ivys/ivy.xml"/>
+				<caller organisation="com.glassbeam" name="scalar-model_2.11" conf="compile" rev="5.1.0.10" rev-constraint-default="5.1.0.10" rev-constraint-dynamic="5.1.0.10" callerrev="5.1.0.10"/>
+				<artifacts>
+					<artifact name="scalar-h2_2.11" type="jar" ext="jar" status="no" details="" size="155133" time="0" location="/home/himanshu/.ivy2/local/com.glassbeam/scalar-h2_2.11/5.1.0.10/jars/scalar-h2_2.11.jar">
+						<origin-location is-local="true" location="/home/himanshu/.ivy2/local/com.glassbeam/scalar-h2_2.11/5.1.0.10/jars/scalar-h2_2.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-slf4j_2.11">
+			<revision name="2.4.9" status="release" pubdate="20160819162515" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="34">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3199" time="0" location="/home/himanshu/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/ivy-2.4.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.11/2.4.9/akka-slf4j_2.11-2.4.9.pom"/>
+				<caller organisation="com.glassbeam" name="scalar-utils_2.11" conf="compile" rev="2.4.9" rev-constraint-default="2.4.9" rev-constraint-dynamic="2.4.9" callerrev="5.1.0.10"/>
+				<caller organisation="com.glassbeam" name="scalar-model_2.11" conf="compile" rev="2.4.9" rev-constraint-default="2.4.9" rev-constraint-dynamic="2.4.9" callerrev="5.1.0.10"/>
+				<caller organisation="com.glassbeam" name="scalar-h2_2.11" conf="compile" rev="2.4.9" rev-constraint-default="2.4.9" rev-constraint-dynamic="2.4.9" callerrev="5.1.0.10"/>
+				<caller organisation="com.glassbeam" name="scalar-extensibility_2.11" conf="compile" rev="2.4.9" rev-constraint-default="2.4.9" rev-constraint-dynamic="2.4.9" callerrev="5.1.0.10"/>
+				<artifacts>
+					<artifact name="akka-slf4j_2.11" type="jar" ext="jar" status="no" details="" size="18201" time="0" location="/home/himanshu/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.4.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.11/2.4.9/akka-slf4j_2.11-2.4.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.chuusai" name="shapeless_2.11">
+			<revision name="2.3.2" status="release" pubdate="20160818172130" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/shapeless" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="32">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3226" time="0" location="/home/himanshu/.ivy2/cache/com.chuusai/shapeless_2.11/ivy-2.3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/chuusai/shapeless_2.11/2.3.2/shapeless_2.11-2.3.2.pom"/>
+				<caller organisation="com.glassbeam" name="scalar-utils_2.11" conf="compile" rev="2.3.2" rev-constraint-default="2.3.2" rev-constraint-dynamic="2.3.2" callerrev="5.1.0.10"/>
+				<caller organisation="com.glassbeam" name="scalar-model_2.11" conf="compile" rev="2.3.2" rev-constraint-default="2.3.2" rev-constraint-dynamic="2.3.2" callerrev="5.1.0.10"/>
+				<caller organisation="com.glassbeam" name="scalar-h2_2.11" conf="compile" rev="2.3.2" rev-constraint-default="2.3.2" rev-constraint-dynamic="2.3.2" callerrev="5.1.0.10"/>
+				<caller organisation="com.glassbeam" name="scalar-extensibility_2.11" conf="compile" rev="2.3.2" rev-constraint-default="2.3.2" rev-constraint-dynamic="2.3.2" callerrev="5.1.0.10"/>
+				<artifacts>
+					<artifact name="shapeless_2.11" type="bundle" ext="jar" status="no" details="" size="3522616" time="0" location="/home/himanshu/.ivy2/cache/com.chuusai/shapeless_2.11/bundles/shapeless_2.11-2.3.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/chuusai/shapeless_2.11/2.3.2/shapeless_2.11-2.3.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="macro-compat_2.11">
+			<revision name="1.1.1" status="release" pubdate="20160215162037" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/macro-compat" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="33">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2964" time="0" location="/home/himanshu/.ivy2/cache/org.typelevel/macro-compat_2.11/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.11/1.1.1/macro-compat_2.11-1.1.1.pom"/>
+				<caller organisation="com.chuusai" name="shapeless_2.11" conf="default, compile, runtime, master" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="2.3.2"/>
+				<artifacts>
+					<artifact name="macro-compat_2.11" type="jar" ext="jar" status="no" details="" size="3142" time="0" location="/home/himanshu/.ivy2/cache/org.typelevel/macro-compat_2.11/jars/macro-compat_2.11-1.1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.11/1.1.1/macro-compat_2.11-1.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-http-testkit_2.11">
+			<revision name="2.4.9" status="release" pubdate="20160819162752" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="23">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3349" time="0" location="/home/himanshu/.ivy2/cache/com.typesafe.akka/akka-http-testkit_2.11/ivy-2.4.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-testkit_2.11/2.4.9/akka-http-testkit_2.11-2.4.9.pom"/>
+				<caller organisation="com.glassbeam" name="scalar-utils_2.11" conf="compile" rev="2.4.9" rev-constraint-default="2.4.9" rev-constraint-dynamic="2.4.9" callerrev="5.1.0.10"/>
+				<caller organisation="com.glassbeam" name="scalar-model_2.11" conf="compile" rev="2.4.9" rev-constraint-default="2.4.9" rev-constraint-dynamic="2.4.9" callerrev="5.1.0.10"/>
+				<caller organisation="com.glassbeam" name="scalar-h2_2.11" conf="compile" rev="2.4.9" rev-constraint-default="2.4.9" rev-constraint-dynamic="2.4.9" callerrev="5.1.0.10"/>
+				<caller organisation="com.glassbeam" name="scalar-extensibility_2.11" conf="compile" rev="2.4.9" rev-constraint-default="2.4.9" rev-constraint-dynamic="2.4.9" callerrev="5.1.0.10"/>
+				<artifacts>
+					<artifact name="akka-http-testkit_2.11" type="jar" ext="jar" status="no" details="" size="116672" time="0" location="/home/himanshu/.ivy2/cache/com.typesafe.akka/akka-http-testkit_2.11/jars/akka-http-testkit_2.11-2.4.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-testkit_2.11/2.4.9/akka-http-testkit_2.11-2.4.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-http-experimental_2.11">
+			<revision name="2.4.9" status="release" pubdate="20160819162713" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3294" time="0" location="/home/himanshu/.ivy2/cache/com.typesafe.akka/akka-http-experimental_2.11/ivy-2.4.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-experimental_2.11/2.4.9/akka-http-experimental_2.11-2.4.9.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-http-testkit_2.11" conf="default, compile, runtime, master" rev="2.4.9" rev-constraint-default="2.4.9" rev-constraint-dynamic="2.4.9" callerrev="2.4.9"/>
+				<artifacts>
+					<artifact name="akka-http-experimental_2.11" type="jar" ext="jar" status="no" details="" size="2705920" time="0" location="/home/himanshu/.ivy2/cache/com.typesafe.akka/akka-http-experimental_2.11/jars/akka-http-experimental_2.11-2.4.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-experimental_2.11/2.4.9/akka-http-experimental_2.11-2.4.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-http-core_2.11">
+			<revision name="2.4.9" status="release" pubdate="20160819162704" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3578" time="0" location="/home/himanshu/.ivy2/cache/com.typesafe.akka/akka-http-core_2.11/ivy-2.4.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.11/2.4.9/akka-http-core_2.11-2.4.9.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-http-experimental_2.11" conf="compile, runtime" rev="2.4.9" rev-constraint-default="2.4.9" rev-constraint-dynamic="2.4.9" callerrev="2.4.9"/>
+				<artifacts>
+					<artifact name="akka-http-core_2.11" type="jar" ext="jar" status="no" details="" size="3437433" time="0" location="/home/himanshu/.ivy2/cache/com.typesafe.akka/akka-http-core_2.11/jars/akka-http-core_2.11-2.4.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.11/2.4.9/akka-http-core_2.11-2.4.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-stream-testkit_2.11">
+			<revision name="2.4.9" status="release" pubdate="20160819162548" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="30">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3341" time="0" location="/home/himanshu/.ivy2/cache/com.typesafe.akka/akka-stream-testkit_2.11/ivy-2.4.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream-testkit_2.11/2.4.9/akka-stream-testkit_2.11-2.4.9.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-http-testkit_2.11" conf="default, compile, runtime, master" rev="2.4.9" rev-constraint-default="2.4.9" rev-constraint-dynamic="2.4.9" callerrev="2.4.9"/>
+				<artifacts>
+					<artifact name="akka-stream-testkit_2.11" type="jar" ext="jar" status="no" details="" size="102124" time="0" location="/home/himanshu/.ivy2/cache/com.typesafe.akka/akka-stream-testkit_2.11/jars/akka-stream-testkit_2.11-2.4.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream-testkit_2.11/2.4.9/akka-stream-testkit_2.11-2.4.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-parsing_2.11">
+			<revision name="2.4.9" status="release" pubdate="20160819162228" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2812" time="0" location="/home/himanshu/.ivy2/cache/com.typesafe.akka/akka-parsing_2.11/ivy-2.4.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.11/2.4.9/akka-parsing_2.11-2.4.9.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-http-core_2.11" conf="compile, runtime" rev="2.4.9" rev-constraint-default="2.4.9" rev-constraint-dynamic="2.4.9" callerrev="2.4.9"/>
+				<artifacts>
+					<artifact name="akka-parsing_2.11" type="jar" ext="jar" status="no" details="" size="975972" time="0" location="/home/himanshu/.ivy2/cache/com.typesafe.akka/akka-parsing_2.11/jars/akka-parsing_2.11-2.4.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.11/2.4.9/akka-parsing_2.11-2.4.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-stream_2.11">
+			<revision name="2.4.9" status="release" pubdate="20160819162345" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3359" time="0" location="/home/himanshu/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/ivy-2.4.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.9/akka-stream_2.11-2.4.9.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-http-core_2.11" conf="compile, runtime" rev="2.4.9" rev-constraint-default="2.4.9" rev-constraint-dynamic="2.4.9" callerrev="2.4.9"/>
+				<caller organisation="com.typesafe.akka" name="akka-stream-testkit_2.11" conf="compile, runtime" rev="2.4.9" rev-constraint-default="2.4.9" rev-constraint-dynamic="2.4.9" callerrev="2.4.9"/>
+				<artifacts>
+					<artifact name="akka-stream_2.11" type="jar" ext="jar" status="no" details="" size="4181251" time="0" location="/home/himanshu/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/jars/akka-stream_2.11-2.4.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.9/akka-stream_2.11-2.4.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="ssl-config-akka_2.11">
+			<revision name="0.2.1" status="release" pubdate="20160408180502" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/ssl-config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3000" time="0" location="/home/himanshu/.ivy2/cache/com.typesafe/ssl-config-akka_2.11/ivy-0.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/ssl-config-akka_2.11/0.2.1/ssl-config-akka_2.11-0.2.1.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-stream_2.11" conf="compile, runtime" rev="0.2.1" rev-constraint-default="0.2.1" rev-constraint-dynamic="0.2.1" callerrev="2.4.9"/>
+				<artifacts>
+					<artifact name="ssl-config-akka_2.11" type="bundle" ext="jar" status="no" details="" size="25715" time="0" location="/home/himanshu/.ivy2/cache/com.typesafe/ssl-config-akka_2.11/bundles/ssl-config-akka_2.11-0.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/ssl-config-akka_2.11/0.2.1/ssl-config-akka_2.11-0.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="ssl-config-core_2.11">
+			<revision name="0.2.1" status="release" pubdate="20160408180507" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/ssl-config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3001" time="0" location="/home/himanshu/.ivy2/cache/com.typesafe/ssl-config-core_2.11/ivy-0.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.11/0.2.1/ssl-config-core_2.11-0.2.1.pom"/>
+				<caller organisation="com.typesafe" name="ssl-config-akka_2.11" conf="compile, runtime" rev="0.2.1" rev-constraint-default="0.2.1" rev-constraint-dynamic="0.2.1" callerrev="0.2.1"/>
+				<artifacts>
+					<artifact name="ssl-config-core_2.11" type="bundle" ext="jar" status="no" details="" size="365288" time="0" location="/home/himanshu/.ivy2/cache/com.typesafe/ssl-config-core_2.11/bundles/ssl-config-core_2.11-0.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.11/0.2.1/ssl-config-core_2.11-0.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.h2database" name="h2">
+			<revision name="1.3.176" status="release" pubdate="20140405182937" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.h2database.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="22">
+				<license name="The H2 License, Version 1.0" url="http://h2database.com/html/license.html"/>
+				<metadata-artifact status="no" details="" size="2463" time="0" location="/home/himanshu/.ivy2/cache/com.h2database/h2/ivy-1.3.176.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/h2database/h2/1.3.176/h2-1.3.176.pom"/>
+				<caller organisation="com.glassbeam" name="scalar-model_2.11" conf="compile" rev="1.3.176" rev-constraint-default="1.3.176" rev-constraint-dynamic="1.3.176" callerrev="5.1.0.10"/>
+				<caller organisation="com.glassbeam" name="scalar-h2_2.11" conf="compile" rev="1.3.176" rev-constraint-default="1.3.176" rev-constraint-dynamic="1.3.176" callerrev="5.1.0.10"/>
+				<artifacts>
+					<artifact name="h2" type="jar" ext="jar" status="no" details="" size="1659879" time="0" location="/home/himanshu/.ivy2/cache/com.h2database/h2/jars/h2-1.3.176.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/h2database/h2/1.3.176/h2-1.3.176.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.zaxxer" name="HikariCP">
+			<revision name="2.4.7" status="release" pubdate="20160706184121" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/brettwooldridge/HikariCP" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="20">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7611" time="0" location="/home/himanshu/.ivy2/cache/com.zaxxer/HikariCP/ivy-2.4.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/zaxxer/HikariCP/2.4.7/HikariCP-2.4.7.pom"/>
+				<caller organisation="com.glassbeam" name="scalar-model_2.11" conf="compile" rev="2.4.7" rev-constraint-default="2.4.7" rev-constraint-dynamic="2.4.7" callerrev="5.1.0.10"/>
+				<caller organisation="com.glassbeam" name="scalar-h2_2.11" conf="compile" rev="2.4.7" rev-constraint-default="2.4.7" rev-constraint-dynamic="2.4.7" callerrev="5.1.0.10"/>
+				<artifacts>
+					<artifact name="HikariCP" type="bundle" ext="jar" status="no" details="" size="136887" time="0" location="/home/himanshu/.ivy2/cache/com.zaxxer/HikariCP/bundles/HikariCP-2.4.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/zaxxer/HikariCP/2.4.7/HikariCP-2.4.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.dropwizard.metrics" name="metrics-healthchecks">
+			<revision name="3.1.2" status="release" pubdate="20150426092933" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="103">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="5209" time="0" location="/home/himanshu/.ivy2/cache/io.dropwizard.metrics/metrics-healthchecks/ivy-3.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-healthchecks/3.1.2/metrics-healthchecks-3.1.2.pom"/>
+				<caller organisation="nl.grons" name="metrics-scala_2.11" conf="default, compile, runtime, master" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.5.4"/>
+				<artifacts>
+					<artifact name="metrics-healthchecks" type="bundle" ext="jar" status="no" details="" size="10170" time="0" location="/home/himanshu/.ivy2/cache/io.dropwizard.metrics/metrics-healthchecks/bundles/metrics-healthchecks-3.1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-healthchecks/3.1.2/metrics-healthchecks-3.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.dropwizard.metrics" name="metrics-core">
+			<revision name="3.1.2" status="release" pubdate="20150426092901" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="101">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="5135" time="0" location="/home/himanshu/.ivy2/cache/io.dropwizard.metrics/metrics-core/ivy-3.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-core/3.1.2/metrics-core-3.1.2.pom"/>
+				<caller organisation="com.glassbeam" name="scalar-model_2.11" conf="compile" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="5.1.0.10"/>
+				<caller organisation="nl.grons" name="metrics-scala_2.11" conf="default, compile, runtime, master" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.5.4"/>
+				<artifacts>
+					<artifact name="metrics-core" type="bundle" ext="jar" status="no" details="" size="112558" time="0" location="/home/himanshu/.ivy2/cache/io.dropwizard.metrics/metrics-core/bundles/metrics-core-3.1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-core/3.1.2/metrics-core-3.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.21" status="release" pubdate="20160405000640" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5199" time="0" location="/home/himanshu/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.pom"/>
+				<caller organisation="io.dropwizard.metrics" name="metrics-healthchecks" conf="compile, runtime" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="3.1.2"/>
+				<caller organisation="io.dropwizard.metrics" name="metrics-core" conf="default, compile, runtime, master" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="3.1.2"/>
+				<caller organisation="com.typesafe.akka" name="akka-slf4j_2.11" conf="default, compile, runtime, master" rev="1.7.16" rev-constraint-default="1.7.16" rev-constraint-dynamic="1.7.16" callerrev="2.4.9"/>
+				<caller organisation="com.typesafe.slick" name="slick_2.11" conf="default, compile, runtime, master" rev="1.7.10" rev-constraint-default="1.7.10" rev-constraint-dynamic="1.7.10" callerrev="3.1.1"/>
+				<caller organisation="com.zaxxer" name="HikariCP" conf="default, compile, runtime, master" rev="1.7.21" rev-constraint-default="1.7.21" rev-constraint-dynamic="1.7.21" callerrev="2.4.7"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="41071" time="0" location="/home/himanshu/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.7.10" status="release" pubdate="20150107014107" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="4573" time="0" location="/home/himanshu/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.pom"/>
+				<evicted-by rev="1.7.21"/>
+				<caller organisation="com.typesafe.slick" name="slick_2.11" conf="default, compile, runtime, master" rev="1.7.10" rev-constraint-default="1.7.10" rev-constraint-dynamic="1.7.10" callerrev="3.1.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="1.7.7" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.7.21"/>
+				<caller organisation="io.dropwizard.metrics" name="metrics-healthchecks" conf="compile, runtime" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="3.1.2"/>
+				<caller organisation="io.dropwizard.metrics" name="metrics-core" conf="default, compile, runtime, master" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="3.1.2"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="1.7.16" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.7.21"/>
+				<caller organisation="com.typesafe.akka" name="akka-slf4j_2.11" conf="default, compile, runtime, master" rev="1.7.16" rev-constraint-default="1.7.16" rev-constraint-dynamic="1.7.16" callerrev="2.4.9"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.tototoshi" name="slick-joda-mapper_2.11">
+			<revision name="2.2.0" status="release" pubdate="20160413064242" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/tototoshi/slick-joda-mapper" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="19">
+				<license name="Two-clause BSD-style license" url="http://github.com/tototoshi/slick-joda-mapper/blob/master/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3404" time="0" location="/home/himanshu/.ivy2/cache/com.github.tototoshi/slick-joda-mapper_2.11/ivy-2.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/tototoshi/slick-joda-mapper_2.11/2.2.0/slick-joda-mapper_2.11-2.2.0.pom"/>
+				<caller organisation="com.glassbeam" name="scalar-model_2.11" conf="compile" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="5.1.0.10"/>
+				<caller organisation="com.glassbeam" name="scalar-h2_2.11" conf="compile" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="5.1.0.10"/>
+				<artifacts>
+					<artifact name="slick-joda-mapper_2.11" type="jar" ext="jar" status="no" details="" size="122525" time="0" location="/home/himanshu/.ivy2/cache/com.github.tototoshi/slick-joda-mapper_2.11/jars/slick-joda-mapper_2.11-2.2.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/tototoshi/slick-joda-mapper_2.11/2.2.0/slick-joda-mapper_2.11-2.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.slick" name="slick_2.11">
+			<revision name="3.1.1" status="release" pubdate="20151216014716" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://slick.typesafe.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="17">
+				<license name="Two-clause BSD-style license" url="http://github.com/slick/slick/blob/master/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3130" time="0" location="/home/himanshu/.ivy2/cache/com.typesafe.slick/slick_2.11/ivy-3.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/slick/slick_2.11/3.1.1/slick_2.11-3.1.1.pom"/>
+				<caller organisation="com.glassbeam" name="scalar-model_2.11" conf="compile" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="5.1.0.10"/>
+				<caller organisation="com.glassbeam" name="scalar-h2_2.11" conf="compile" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="5.1.0.10"/>
+				<artifacts>
+					<artifact name="slick_2.11" type="bundle" ext="jar" status="no" details="" size="4648742" time="0" location="/home/himanshu/.ivy2/cache/com.typesafe.slick/slick_2.11/bundles/slick_2.11-3.1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/slick/slick_2.11/3.1.1/slick_2.11-3.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.reactivestreams" name="reactive-streams">
+			<revision name="1.0.0" status="release" pubdate="20150429214454" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.reactive-streams.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="CC0" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
+				<metadata-artifact status="no" details="" size="2523" time="0" location="/home/himanshu/.ivy2/cache/org.reactivestreams/reactive-streams/ivy-1.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-stream_2.11" conf="compile, runtime" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="2.4.9"/>
+				<caller organisation="com.typesafe.slick" name="slick_2.11" conf="default, compile, runtime, master" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="3.1.1"/>
+				<artifacts>
+					<artifact name="reactive-streams" type="jar" ext="jar" status="no" details="" size="2042" time="0" location="/home/himanshu/.ivy2/cache/org.reactivestreams/reactive-streams/jars/reactive-streams-1.0.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.joda" name="joda-convert">
+			<revision name="1.8.1" status="release" pubdate="20151002162804" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-convert/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="16">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6434" time="0" location="/home/himanshu/.ivy2/cache/org.joda/joda-convert/ivy-1.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/joda/joda-convert/1.8.1/joda-convert-1.8.1.pom"/>
+				<caller organisation="com.glassbeam" name="scalar-model_2.11" conf="compile" rev="1.8.1" rev-constraint-default="1.8.1" rev-constraint-dynamic="1.8.1" callerrev="5.1.0.10"/>
+				<caller organisation="com.glassbeam" name="scalar-h2_2.11" conf="compile" rev="1.8.1" rev-constraint-default="1.8.1" rev-constraint-dynamic="1.8.1" callerrev="5.1.0.10"/>
+				<artifacts>
+					<artifact name="joda-convert" type="jar" ext="jar" status="no" details="" size="111521" time="0" location="/home/himanshu/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.8.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/joda/joda-convert/1.8.1/joda-convert-1.8.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="joda-time" name="joda-time">
+			<revision name="2.9.4" status="release" pubdate="20160527145535" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-time/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)" position="15">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6595" time="0" location="/home/himanshu/.ivy2/cache/joda-time/joda-time/ivy-2.9.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/joda-time/joda-time/2.9.4/joda-time-2.9.4.pom"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="2.2" rev-constraint-default="2.2" rev-constraint-dynamic="2.2" callerrev="5.2.1"/>
+				<caller organisation="com.glassbeam" name="scalar-model_2.11" conf="compile" rev="2.9.4" rev-constraint-default="2.9.4" rev-constraint-dynamic="2.9.4" callerrev="5.1.0.10"/>
+				<caller organisation="com.glassbeam" name="scalar-h2_2.11" conf="compile" rev="2.9.4" rev-constraint-default="2.9.4" rev-constraint-dynamic="2.9.4" callerrev="5.1.0.10"/>
+				<artifacts>
+					<artifact name="joda-time" type="jar" ext="jar" status="no" details="" size="629506" time="0" location="/home/himanshu/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.9.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/joda-time/joda-time/2.9.4/joda-time-2.9.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.2" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="2.9.4"/>
+				<caller organisation="org.apache.solr" name="solr-core" conf="default, compile, runtime, master" rev="2.2" rev-constraint-default="2.2" rev-constraint-dynamic="2.2" callerrev="5.2.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-remote_2.11">
+			<revision name="2.4.9" status="release" pubdate="20160819162656" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="11">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3952" time="0" location="/home/himanshu/.ivy2/cache/com.typesafe.akka/akka-remote_2.11/ivy-2.4.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.4.9/akka-remote_2.11-2.4.9.pom"/>
+				<caller organisation="com.glassbeam" name="scalar-h2_2.11" conf="compile" rev="2.4.9" rev-constraint-default="2.4.9" rev-constraint-dynamic="2.4.9" callerrev="5.1.0.10"/>
+				<artifacts>
+					<artifact name="akka-remote_2.11" type="jar" ext="jar" status="no" details="" size="1453459" time="0" location="/home/himanshu/.ivy2/cache/com.typesafe.akka/akka-remote_2.11/jars/akka-remote_2.11-2.4.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.4.9/akka-remote_2.11-2.4.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.uncommons.maths" name="uncommons-maths">
+			<revision name="1.2.2a" status="release" pubdate="20110408192605" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://maths.uncommons.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2876" time="0" location="/home/himanshu/.ivy2/cache/org.uncommons.maths/uncommons-maths/ivy-1.2.2a.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-remote_2.11" conf="default, compile, runtime, master" rev="1.2.2a" rev-constraint-default="1.2.2a" rev-constraint-dynamic="1.2.2a" callerrev="2.4.9"/>
+				<artifacts>
+					<artifact name="uncommons-maths" type="jar" ext="jar" status="no" details="" size="49019" time="0" location="/home/himanshu/.ivy2/cache/org.uncommons.maths/uncommons-maths/jars/uncommons-maths-1.2.2a.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty">
+			<revision name="3.10.6.Final" status="release" pubdate="20160629181528" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://netty.io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="7197" time="0" location="/home/himanshu/.ivy2/cache/io.netty/netty/ivy-3.10.6.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty/3.10.6.Final/netty-3.10.6.Final.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-remote_2.11" conf="default, compile, runtime, master" rev="3.10.6.Final" rev-constraint-default="3.10.6.Final" rev-constraint-dynamic="3.10.6.Final" callerrev="2.4.9"/>
+				<artifacts>
+					<artifact name="netty" type="bundle" ext="jar" status="no" details="" size="1292696" time="0" location="/home/himanshu/.ivy2/cache/io.netty/netty/bundles/netty-3.10.6.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty/3.10.6.Final/netty-3.10.6.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-protobuf_2.11">
+			<revision name="2.4.9" status="release" pubdate="20160819162229" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2664" time="0" location="/home/himanshu/.ivy2/cache/com.typesafe.akka/akka-protobuf_2.11/ivy-2.4.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.11/2.4.9/akka-protobuf_2.11-2.4.9.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-remote_2.11" conf="default, compile, runtime, master" rev="2.4.9" rev-constraint-default="2.4.9" rev-constraint-dynamic="2.4.9" callerrev="2.4.9"/>
+				<artifacts>
+					<artifact name="akka-protobuf_2.11" type="jar" ext="jar" status="no" details="" size="484651" time="0" location="/home/himanshu/.ivy2/cache/com.typesafe.akka/akka-protobuf_2.11/jars/akka-protobuf_2.11-2.4.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.11/2.4.9/akka-protobuf_2.11-2.4.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-testkit_2.11">
+			<revision name="2.4.9" status="release" pubdate="20160819162344" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3543" time="0" location="/home/himanshu/.ivy2/cache/com.typesafe.akka/akka-testkit_2.11/ivy-2.4.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.4.9/akka-testkit_2.11-2.4.9.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-stream-testkit_2.11" conf="compile, runtime" rev="2.4.9" rev-constraint-default="2.4.9" rev-constraint-dynamic="2.4.9" callerrev="2.4.9"/>
+				<artifacts>
+					<artifact name="akka-testkit_2.11" type="jar" ext="jar" status="no" details="" size="267336" time="0" location="/home/himanshu/.ivy2/cache/com.typesafe.akka/akka-testkit_2.11/jars/akka-testkit_2.11-2.4.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.4.9/akka-testkit_2.11-2.4.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor_2.11">
+			<revision name="2.4.9" status="release" pubdate="20160819162219" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="8">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2956" time="0" location="/home/himanshu/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/ivy-2.4.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.9/akka-actor_2.11-2.4.9.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-stream_2.11" conf="compile, runtime" rev="2.4.9" rev-constraint-default="2.4.9" rev-constraint-dynamic="2.4.9" callerrev="2.4.9"/>
+				<caller organisation="com.typesafe.akka" name="akka-testkit_2.11" conf="compile, runtime" rev="2.4.9" rev-constraint-default="2.4.9" rev-constraint-dynamic="2.4.9" callerrev="2.4.9"/>
+				<caller organisation="com.glassbeam" name="scalar-model_2.11" conf="compile" rev="2.4.9" rev-constraint-default="2.4.9" rev-constraint-dynamic="2.4.9" callerrev="5.1.0.10"/>
+				<caller organisation="com.typesafe.akka" name="akka-slf4j_2.11" conf="default, compile, runtime, master" rev="2.4.9" rev-constraint-default="2.4.9" rev-constraint-dynamic="2.4.9" callerrev="2.4.9"/>
+				<caller organisation="com.glassbeam" name="scalar-h2_2.11" conf="compile" rev="2.4.9" rev-constraint-default="2.4.9" rev-constraint-dynamic="2.4.9" callerrev="5.1.0.10"/>
+				<caller organisation="com.typesafe.akka" name="akka-remote_2.11" conf="default, compile, runtime, master" rev="2.4.9" rev-constraint-default="2.4.9" rev-constraint-dynamic="2.4.9" callerrev="2.4.9"/>
+				<artifacts>
+					<artifact name="akka-actor_2.11" type="jar" ext="jar" status="no" details="" size="3250811" time="0" location="/home/himanshu/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.9/akka-actor_2.11-2.4.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-java8-compat_2.11">
+			<revision name="0.7.0" status="release" pubdate="20150831163233" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3036" time="0" location="/home/himanshu/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/ivy-0.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.11/0.7.0/scala-java8-compat_2.11-0.7.0.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.11" conf="default, compile, runtime, master" rev="0.7.0" rev-constraint-default="0.7.0" rev-constraint-dynamic="0.7.0" callerrev="2.4.9"/>
+				<artifacts>
+					<artifact name="scala-java8-compat_2.11" type="bundle" ext="jar" status="no" details="" size="582358" time="0" location="/home/himanshu/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/bundles/scala-java8-compat_2.11-0.7.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.11/0.7.0/scala-java8-compat_2.11-0.7.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.3.0" status="release" pubdate="20150508211611" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2875" time="0" location="/home/himanshu/.ivy2/cache/com.typesafe/config/ivy-1.3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.0/config-1.3.0.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.11" conf="default, compile, runtime, master" rev="1.3.0" rev-constraint-default="1.3.0" rev-constraint-dynamic="1.3.0" callerrev="2.4.9"/>
+				<caller organisation="com.typesafe" name="ssl-config-core_2.11" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="0.2.1"/>
+				<caller organisation="com.typesafe.slick" name="slick_2.11" conf="default, compile, runtime, master" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="3.1.1"/>
+				<artifacts>
+					<artifact name="config" type="bundle" ext="jar" status="no" details="" size="277782" time="0" location="/home/himanshu/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.0/config-1.3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.2.0" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.3.0"/>
+				<caller organisation="com.typesafe" name="ssl-config-core_2.11" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="0.2.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="1.2.1" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.3.0"/>
+				<caller organisation="com.typesafe.slick" name="slick_2.11" conf="default, compile, runtime, master" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="3.1.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-compiler">
+			<revision name="2.11.8" status="release" pubdate="20160309094605" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="3133" time="0" location="/home/himanshu/.ivy2/cache/org.scala-lang/scala-compiler/ivy-2.11.8.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8.pom"/>
+				<caller organisation="com.glassbeam" name="scalar-h2_2.11" conf="compile" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="5.1.0.10"/>
+				<artifacts>
+					<artifact name="scala-compiler" type="jar" ext="jar" status="no" details="" size="15487351" time="0" location="/home/himanshu/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.11.8.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.11">
+			<revision name="1.0.4" status="release" pubdate="20150430193700" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2803" time="0" location="/home/himanshu/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/ivy-1.0.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.pom"/>
+				<caller organisation="com.typesafe" name="ssl-config-core_2.11" conf="compile, runtime" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="0.2.1"/>
+				<caller organisation="org.scala-lang" name="scala-compiler" conf="default, compile, runtime, master" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="2.11.8"/>
+				<artifacts>
+					<artifact name="scala-parser-combinators_2.11" type="bundle" ext="jar" status="no" details="" size="423753" time="0" location="/home/himanshu/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-xml_2.11">
+			<revision name="1.0.4" status="release" pubdate="20150430192300" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3011" time="0" location="/home/himanshu/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/ivy-1.0.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.pom"/>
+				<caller organisation="org.scala-lang" name="scala-compiler" conf="default, compile, runtime, master" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="2.11.8"/>
+				<artifacts>
+					<artifact name="scala-xml_2.11" type="bundle" ext="jar" status="no" details="" size="647891" time="0" location="/home/himanshu/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.4.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.11.8" status="release" pubdate="20160309094602" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2825" time="0" location="/home/himanshu/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.11.8.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.pom"/>
+				<caller organisation="org.scala-lang" name="scala-compiler" conf="default, compile, runtime, master" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="2.11.8"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="4573750" time="0" location="/home/himanshu/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.8" status="release" pubdate="20160309094604" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/home/himanshu/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.8.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-http-core_2.11" conf="compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="2.4.9"/>
+				<caller organisation="com.glassbeam" name="scalar-model_2.11" conf="compile" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="5.1.0.10"/>
+				<caller organisation="org.scala-lang" name="scala-compiler" conf="default, compile, runtime, master" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="2.11.8"/>
+				<caller organisation="com.typesafe.akka" name="akka-slf4j_2.11" conf="default, compile, runtime, master" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="2.4.9"/>
+				<caller organisation="com.typesafe.akka" name="akka-http-testkit_2.11" conf="default, compile, runtime, master" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="2.4.9"/>
+				<caller organisation="com.glassbeam.scalar.extensibility" name="extensibility_2.11" conf="compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="5.1"/>
+				<caller organisation="com.typesafe.akka" name="akka-remote_2.11" conf="default, compile, runtime, master" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="2.4.9"/>
+				<caller organisation="com.typesafe" name="ssl-config-core_2.11" conf="compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="0.2.1"/>
+				<caller organisation="com.glassbeam" name="scalar-h2_2.11" conf="compile" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="5.1.0.10"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.11" conf="default, compile, runtime, master" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="2.4.9"/>
+				<caller organisation="com.typesafe.akka" name="akka-stream_2.11" conf="compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="2.4.9"/>
+				<caller organisation="com.typesafe.akka" name="akka-protobuf_2.11" conf="compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="2.4.9"/>
+				<caller organisation="com.typesafe.akka" name="akka-testkit_2.11" conf="compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="2.4.9"/>
+				<caller organisation="com.typesafe.akka" name="akka-stream-testkit_2.11" conf="compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="2.4.9"/>
+				<caller organisation="com.github.tototoshi" name="slick-joda-mapper_2.11" conf="default, compile, runtime, master" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="2.2.0"/>
+				<caller organisation="com.glassbeam" name="scalar-extensibility_2.11" conf="compile" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="5.1.0.10"/>
+				<caller organisation="com.typesafe" name="ssl-config-akka_2.11" conf="compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="0.2.1"/>
+				<caller organisation="org.scala-lang.modules" name="scala-java8-compat_2.11" conf="compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="0.7.0"/>
+				<caller organisation="com.typesafe.slick" name="slick_2.11" conf="default, compile, runtime, master" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="3.1.1"/>
+				<caller organisation="org.scala-lang.modules" name="scala-xml_2.11" conf="compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="1.0.4"/>
+				<caller organisation="nl.grons" name="metrics-scala_2.11" conf="default, compile, runtime, master" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="3.5.4"/>
+				<caller organisation="com.glassbeam" name="scalar-utils_2.11" conf="compile" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="5.1.0.10"/>
+				<caller organisation="com.typesafe.akka" name="akka-parsing_2.11" conf="compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="2.4.9"/>
+				<caller organisation="com.chuusai" name="shapeless_2.11" conf="default, compile, runtime, master" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="2.3.2"/>
+				<caller organisation="org.typelevel" name="macro-compat_2.11" conf="compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="1.1.1"/>
+				<caller organisation="org.scala-lang.modules" name="scala-parser-combinators_2.11" conf="compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="1.0.4"/>
+				<caller organisation="com.typesafe.akka" name="akka-http-experimental_2.11" conf="compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="2.4.9"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="2.11.8"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5744974" time="0" location="/home/himanshu/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
